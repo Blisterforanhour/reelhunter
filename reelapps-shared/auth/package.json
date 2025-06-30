@@ -1,0 +1,23 @@
+{
+  "name": "@reelapps/auth",
+  "version": "1.0.0",
+  "description": "Authentication utilities for ReelApps",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^24.0.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
